@@ -11,25 +11,18 @@
 
     <artifactId>converters</artifactId>
 
-    <properties>
-        <mapstruct.version>1.4.2.Final</mapstruct.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${mapstruct.version}</version>
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>web-api</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>jpa-entities</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
         </dependency>
 
     </dependencies>
